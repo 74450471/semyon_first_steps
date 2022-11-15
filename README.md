@@ -40,3 +40,5 @@ df[df['zero_difference'] == 0]
 df_ind = df.set_index('zero_difference')
 print(df_ind)
 ```
+
+- Answer: the company ABMD had no difference between Close and Adj Close
