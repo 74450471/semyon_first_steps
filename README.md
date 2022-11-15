@@ -1,7 +1,7 @@
 # semyon first_steps
 ## data processing class; midterm assignment 
 
-##part 1(troubles with reading CSV file) 
+## part 1(troubles with reading CSV file) 
 
 - I uploaded the zip files from zip 
 - Had troubles with opening them all at once 
@@ -13,7 +13,7 @@ import zipfile
 zf = zipfile.ZipFile(r'C:\Users\smnsr\Downloads\justynaCase.zip')
 df = pd.read_csv(zf.open('file_name.csv'))
 ```
-##part 1.1
+## part 1.1
 **question 1**
 
 - Is there a company that has no difference between Close and Adj Close column?
